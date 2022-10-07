@@ -1,14 +1,15 @@
-# Graphlibrary
+# @unovis/graphlibrary
 
-[![Build Status](https://secure.travis-ci.org/tylingsoft/graphlibrary.svg)](http://travis-ci.org/tylingsoft/graphlibrary)
+Graphlibrary is a JavaScript library that provides data structures for undirected
+and directed multi-graphs along with algorithms that can be used with them.
 
-Graphlibrary is a JavaScript library that provides data structures for undirected and directed multi-graphs along with algorithms that can be used with them.
+To learn more see the original `graphlib`'s Wiki: https://github.com/dagrejs/graphlib/wiki.
 
-Graphlibrary is not built from scratch, it's based on [dagrejs/graphlib](https://github.com/dagrejs/graphlib). And it is designed as an out-of-box replacement for dagrejs/graphlib.
+    ℹ️ This version of Graphlibrary is a fork of https://github.com/tylingsoft/graphlibrary,
+    which is a fork of the original `graphlib` package (https://github.com/dagrejs/graphlib).
 
-To learn more [see our Wiki](https://github.com/dagrejs/graphlib/wiki).
-
+    We've created this fork to update the code to ES modules and use individual lodash imports
+    to allow better tree shaking in Unovis.
 
 # License
-
-Graphlibrary is licensed under the terms of the MIT License. See the [LICENSE](LICENSE) file for details.
+MIT

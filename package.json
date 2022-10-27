@@ -1,7 +1,7 @@
 {
   "name": "@unovis/graphlibrary",
-  "version": "2.2.0",
-  "description": "A fork of `graphlibrary` with individual lodash imports; exported as ES modules",
+  "version": "2.2.0-1",
+  "description": "A fork of `graphlibrary` with individual lodash-es imports; exported as ES modules",
   "author": "Nikita Rokotyan (nikita@f5.com)",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -18,7 +18,7 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash-es": "^4.17.21"
   },
   "devDependencies": {
     "@babel/cli": "^7.19.3",
